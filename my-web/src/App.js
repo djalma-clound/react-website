@@ -1,6 +1,7 @@
 
 import Header from '../src/Components/Header';
 import Hero  from './Components/Hero';
+import Section from './Components/section';
 
 import './App.css';
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
      < Header />
      < Hero/>
+     <Section />
     </div>
   );
 }
