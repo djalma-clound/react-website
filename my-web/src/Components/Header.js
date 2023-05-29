@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../Components/header.css";
 import logo from "./logo.svg";
+import Links from "../Components/links";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,8 +49,11 @@ function Header() {
           >
             my site
           </a>
+        
         </ul>
+       
       )}
+      <Links/>
     </div>
   );
 }

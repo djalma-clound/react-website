@@ -28,13 +28,15 @@
 .menu{
   position: absolute;
   right: 10%;
-  display: flex;
+  display:none;
   gap: 20px;
-  /* z-index: 999; */
+  z-index: 999;
 }
 .App-link {
   color: #61dafb;
   text-decoration: none;
+  display: flex;
+  z-index: 999;
 }
 .App-link:hover{
   background-color: white;

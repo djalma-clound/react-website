@@ -1,0 +1,12 @@
+.menu-links{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    gap: 30px;
+    display: flex;
+}
+@media screen and (max-width:800px) {
+    .menu-links{
+        display: none;
+    }
+}
