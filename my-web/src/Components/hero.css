@@ -15,8 +15,15 @@
     left: 10%;
     color:white;
 }
-button{
+.hero button{
     position: absolute;
+    width: 100px;
     left: 15%;
     margin-top: 50px;
+}
+button:hover{
+    background-color: red;
+    color:white;
+    padding-left: 15px;
+    text-align: center;
 }
